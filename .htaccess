@@ -1,0 +1,10 @@
+ReWriteEngine off
+RewriteRule ^user?$ user.php [L,NC]
+RewriteRule ^index.php_Fabric?$ Fabric.php [L,NC]
+RewriteRule ^index.php?$ index.php [L,NC]
+RewriteRule ^index.php_Wood?$ Wood.php [L,NC]
+RewriteRule ^index.php_Stone?$ Stone.php [L,NC]
+RewriteRule ^index.php_Metal?$ Metal.php [L,NC]
+RewriteRule ^index.php_Floor?$ Floor.php [L,NC]
+RewriteRule ^index.php_Wall?$ Wall.php [L,NC]
+
