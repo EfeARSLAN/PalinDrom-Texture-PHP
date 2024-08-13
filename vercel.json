@@ -6,38 +6,38 @@
     },
     "routes": [
         { 
-            "src": "/PALINDROM-TEXTURE/index.php",
-            "dest": "/PALINDROM-TEXTURE/index.php" 
+            "src": "/index.php",
+            "dest": "/index.php" 
     },
     {
-        "src": "/PALINDROM-TEXTURE/a.css",
-            "dest": "/PALINDROM-TEXTURE/a.css" 
+        "src": "/a.css",
+            "dest": "/a.css" 
             
     },
     {
-        "src": "/PALINDROM-TEXTURE/aa.css",
-            "dest": "/PALINDROM-TEXTURE/aa.css" 
+        "src": "/aa.css",
+            "dest": "/aa.css" 
             
     },
     {
-        "src": "/PALINDROM-TEXTURE/aa copy.css",
-            "dest": "/PALINDROM-TEXTURE/aa copy.css" 
+        "src": "/aa copy.css",
+            "dest": "/aa copy.css" 
             
     },
     {
-        "src": "/PALINDROM-TEXTURE/Fiter.css",
-            "dest": "/PALINDROM-TEXTURE/Filter.css" 
+        "src": "/Fiter.css",
+            "dest": "/Filter.css" 
             
     }
     ,
     {
         "src": "/img/(.*).png",
-            "dest": "/PALINDROM-TEXTURE/img/$1" 
+            "dest": "/img/$1" 
             
     },
     {
         "src": "/(.*)",
-            "dest": "/PALINDROM-TEXTURE/index.php" 
+            "dest": "/index.php" 
             
     }
     ]
